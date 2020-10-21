@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="no"?>
+<!DOCTYPE servicio>
+
+<servicio>
+  
+  <programa programa1="Apache" programa2="IIS"> Apache</programa>  
+  <fecha_creacion dia="1" mes="5" año="2005"></fecha_creacion>
+  <fecha_actualizacion dia="8" mes="8" año="2019"></fecha_actualizacion>    
+  <alojamiento empresa="Servired SL" precio_mes="50.0€"></alojamiento>  
+  
+  <servidor_virtual1>    
+    
+    <id>548-ABCDE</id>    
+    <dominio>https://www.servired.es/</dominio>    
+    <directorio>C:\ServicioV1</directorio>    
+    <modo_seguro valor="false"></modo_seguro>
+    
+    
+    <indicentes>
+      
+      <incidente1>
+        <descripcion>El servidor se ha caido</descripcion>      
+        <solucion>Se ha reiniciado el servidor</solucion>
+      </incidente1>
+      
+      <incidente2>
+        
+        <descripcion>El titulo de la pagina web no aparece</descripcion>
+        <solucion>Se ha actualizado el documento HTML que daba formato a la web</solucion>
+        
+      </incidente2>
+            
+    </indicentes>
+      
+  </servidor_virtual1>  
+  
+  <servidor_virtual2>    
+    
+    <id>898-AKIPE</id>    
+    <dominio>https://www.Tecnicast.es/</dominio>    
+    <directorio>C:\ServicioV2</directorio>    
+    <modo_seguro valor="true"></modo_seguro>
+          
+  </servidor_virtual2>
+    
+</servicio>
+    
